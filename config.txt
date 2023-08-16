@@ -1,0 +1,11 @@
+pip install pycodestyle
+
+pip install flake8
+
+flake8
+Python › Linting: Flake8 Enabled
+Whether to lint Python files using flake8.
+
+# Definir a codificação do console para UTF-8
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
