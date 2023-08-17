@@ -9,6 +9,13 @@ print(list)
 
 # As tuplas são imutáveis, enquanto as listas são mutáveis.
 
+x = ("item1", "item2", "verde")
+print(x)
+
+
+
+
+
 
 
 
