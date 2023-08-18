@@ -22,7 +22,7 @@ pessoa["idade"] = 31
 # Removendo um item do dicionário
 del pessoa["cidade"]
 
-# Imprimindo o dicionário completo
+# Imprimindo 
 print(pessoa)
 
 
