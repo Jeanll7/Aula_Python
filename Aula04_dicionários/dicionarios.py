@@ -1,29 +1,32 @@
 import sys
 sys.stdout.reconfigure(encoding='utf-8') 
 
-# Criando um dicionário com informações de uma pessoa
-pessoa = {
-  "nome": "João",
-  "idade": 30,
-  "cidade": "São Paulo"
+# Criando um dicionário com informações de um carro
+carro = {
+  "marca": "Toyota",
+  "modelo": "Corolla",
+  "ano": 2020,
+  "cor": "Prata"
 }
 
 # Acessando valores usando as chaves
-print("Nome:", pessoa["nome"])
-print("Idade:", pessoa["idade"])
-print("Cidade:", pessoa["cidade"])
+print("Marca:", carro["marca"])
+print("Modelo:", carro["modelo"])
+print("Ano:", carro["ano"])
+print("Cor:", carro["cor"])
 
 # Adicionando um novo item ao dicionário
-pessoa["profissao"] = "Engenheiro"
+carro["quilometragem"] = 15000
 
 # Modificando um valor existente
-pessoa["idade"] = 31
+carro["ano"] = 2021
 
-# Removendo um item do dicionário
-del pessoa["cidade"]
+# Imprimindo o dicionário atualizado
+print(carro)
 
-# Imprimindo 
-print(pessoa)
+
+
+
 
 
 
