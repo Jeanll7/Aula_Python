@@ -18,7 +18,7 @@ print(f"A chave da Alice é: {chave_da_Alice}")
 print(f"A chave do Bob é: {chave_do_Bob}")
 
 
-# time: 7:14 - dicionário
+
 
 
 
