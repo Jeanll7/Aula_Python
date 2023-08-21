@@ -10,12 +10,25 @@ dados = {"nome" : "Gabriel", "ano" : "1993", "valor_logico" : True}
 dados.update({"estado":"Santa Catarina"})
 print(dados)
 
-# A função popitem elimina o último item apenas da versão 3.7 e acima
-dados.popitem() 
-print(dados)
+for chave in dados:
+  print(chave) 
 
-dados.pop("nome") # elimina um item específico
-print(dados)
+print("----"*10)
+
+for chave in dados:
+  print(dados[chave])
+  
+print("----"*10)
+  
+for chave in dados.values():
+  print(chave)
+  
+print("----"*10)
+  
+for chave in dados.keys():
+  print(chave)
+  
+
 
 
 

@@ -11,4 +11,4 @@ infos = [
 ]
 
 nome, sobrenome, *_, escolaridade, idade = infos
-print(f"{nome} {sobrenome} tem {escolaridade}, e idade {idade} anos")
+print(f"{nome} {sobrenome} tem {escolaridade} e idade {idade} anos")
