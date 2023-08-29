@@ -17,16 +17,24 @@ print("-"*30)"""
 
 # Parâmetro Padrão
 
-def imprimir_imovel(nome_imovel, numeros_quartos, vaga_garagem=None): 
+def imprimir_imovel(nome_imovel, numeros_quartos, vaga_garagem=0, *args): 
   print("Título:", nome_imovel)
   print("Quartos:", numeros_quartos)
   
   if vaga_garagem is not None:
     print("Vagas na garagem:", vaga_garagem)
+  
+  if args:
+    for telefone in args:
+      print(f"Contato:", telefone)
     
     
-imprimir_imovel("Casa na Praia", 3)  # Sem vaga na garagem
-imprimir_imovel("Apartamento no Centro - Florianópolis", 2, 1) # 1 vagas na garagem
+imprimir_imovel("Casa na Praia - Campeche", 3)  # Sem vaga na garagem
+imprimir_imovel("Apartamento - Florianópolis", 2, 1) # 1 vagas na garagem
+
+# imprimir_imovel("Loja Comercial", 2, 5, "61 5555-5555", "62 4444-4444", "63 3333-3333") mais argumentos 
+imprimir_imovel("Loja Comercial", 2, 5, "61 5555-5555") 
+
 
  
 
