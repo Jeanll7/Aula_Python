@@ -4,6 +4,8 @@ sys.stdout.reconfigure(encoding='utf-8')
 # Descubra se o número é primo
 import math
 
+__doc__ = "Este módulo é usado para determinar se um número é primo ou não."
+
 def verificar_primo(numero):
   if numero <= 1:
     return ("Esse número não é primo: número menor ou igual a 1")
@@ -23,6 +25,11 @@ def verificar_primo(numero):
       return "Esse número é primo"
     else:
       return "Esse número não é primo"
+
+if __name__ == '__main__':
+  print("ola mundo do modulo primo")
+
+# print(verificar_primo(1))
 
 
 

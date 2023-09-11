@@ -16,7 +16,10 @@ def find_larger(x, y):
   
 # Função para calcular a média aritmética entre X e Y
 def calculate_mean(x, y):
-  return (x + y) / 2
+  if x == y:
+    return f"X e Y são iguais: {x}"
+  else:
+    return (x + y) / 2
 
 # Função principal
 def main():
@@ -26,8 +29,8 @@ def main():
   largest = find_larger(x, y)
   mean = calculate_mean(x, y)
   
-  print(f"O maior número entre X e Y é:", largest )
-  print(f"O média aritmética de X e Y é:", mean)
+  print(f"O maior número entre X e Y é: {largest}")
+  print(f"O média aritmética de X e Y é: {mean}")
   
 main()
 
