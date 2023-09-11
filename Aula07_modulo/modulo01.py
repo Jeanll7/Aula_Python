@@ -24,7 +24,7 @@ while True:
 print(f"Você cometeu {erros} erro(s) durante a partida.")
 
 
-  # 2:05
+ 
 
 
   

@@ -8,7 +8,9 @@ __main__
 __doc__ - Docstrings        
 """
 
-import random
+import primo
 
-print('Olá mundo!')
+docstring = primo.__doc__
+
+print(docstring)
 

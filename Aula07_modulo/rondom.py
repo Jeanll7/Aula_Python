@@ -9,7 +9,6 @@ sys.stdout.reconfigure(encoding='utf-8')
   choice
 )"""
 
-
 import random as rd
 
 print(rd.random())
